@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zing MP3</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="row jus-center">
+        <div id="my__zing-mp3" class="relative">
+            <div class="web__header row flex-column ali-center" style="background: #fff;">
+                <div id="header">
+                    <div class="row ali-center flex-column">
+                        <p class="header__title">Now playing: </p>
+                        <p class="header__name-music"></p>
+                    </div>
+                </div>
+    
+                <div id="slider" class="">
+                    <img 
+                    src="" 
+                    alt=""
+                    class="slider__img">
+                </div>
+
+                <div id="control">
+                    <div class="row ali-center jus-center">
+                        <i class="fa-solid fa-arrow-rotate-right control__icon"></i>
+                        <i class="fa-solid fa-backward-step control__icon old__song"></i>
+                        <div class="toggle__play">
+                            <i class="fa-solid fa-play control__icon play__icon"></i>
+                            <i class="fa-solid fa-pause control__icon pause__icon"></i>
+                        </div>
+                        <i class="fa-solid fa-forward-step control__icon new__song"></i>
+                        <i class="fa-solid fa-shuffle control__icon"></i>
+                    </div>
+                    
+                    <div class="control__button">
+                        <input type="range" name="control" id="" value="0" step="1" min="0" max="100">
+                    </div>
+                </div>
+
+                <audio id="audio">
+                    <source src="" type="audio/mp3">
+                </audio>
+            </div>
+            <div id="content">
+                <ul>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="./assets/js/main.js"></script>
+</body>
+</html>
